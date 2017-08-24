@@ -1,0 +1,26 @@
+body {
+    font-size: 16px;
+    line-height: 1;
+    color: $primary-color;
+    font-weight: 200;
+    font-family: 'Inconsolata', monospace;
+    background: #000;
+    color: #fff;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:99%;
+}
+
+.list-posts-title {
+    padding-top: 1em;
+    font-weight: 300;
+    position: relative;
+    line-height: 135%;
+    font-size: 1.75em;
+    transform: translateZ(0);
+    cursor: pointer;
+    min-height: 110px;
+}
